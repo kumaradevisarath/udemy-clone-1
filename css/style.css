@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gabarito', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav__sec1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav__sec1__title {
+    color: rgb(219, 37, 247);
+   font-size: 30px;
+}
+.nav__sec2 {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+    gap: 10px;
+display: flex;
+align-items: center;
+}
+
+.nav__sec2 input {
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.nav__sec3 {
+    display: flex;
+    margin-right: 10px;
+   align-items: center;
+   gap: 10px;
+}
+.categories{
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    
+    justify-content: space-around;
+}
+.categories p{
+    text-transform: capitalize;
+    color: white;
+    background-color: rgb(219, 37, 247);
+    padding: 10px;
+    border-radius: 40px;
+}
+.sale__img{
+    width: 100%;
+}
+.sale__img img{
+    width: 100%;
+}
+.recommended{
+    padding: 10px;
+    text-transform: capitalize;
+    
+}
+.recommended p{
+margin-top: 10px;
+}
+.recommended__container{
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+flex-wrap: wrap;
+
+}
+.course-card{
+    width: 250px;
+    height: 400px;
+}
+.course-card img{
+    width: 100%;
+    height: 50%;
+}
+.topic{
+    text-transform: capitalize;
+}
+.topic h2{
+    margin-bottom: 10px;
+}
+.topic ul{
+    gap: 20px;
+}
+.topic ul li{
+    display: inline-block;
+    border: 1px solid black;
+    width: 300px;
+    gap: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer__1{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    margin: 20px;
+    text-transform: capitalize;
+}
+.footer__2{
+    padding: 30px ;
+    margin: 20px;
+}
