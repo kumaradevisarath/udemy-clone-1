@@ -239,7 +239,10 @@ body {
     padding: 30px;
     margin: 20px;
 }
-
+.footer__2__s2{
+    display: flex;
+    justify-content: space-between;
+}
 @media (max-width:800px) {
     body {
         font-size: 10px;
