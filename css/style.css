@@ -34,7 +34,7 @@ body {
 
 .nav__sec2 {
     padding: 10px;
-    width: 300px;
+    width:700px;
     border: 1px solid black;
     border-radius: 30px;
     gap: 10px;
@@ -54,7 +54,9 @@ body {
     align-items: center;
     gap: 10px;
 }
-
+.bars{
+    display: none;
+}
 .mylearning {
     cursor: pointer;
     position: relative;
@@ -138,9 +140,17 @@ body {
 .recommended {
     padding: 10px;
     text-transform: capitalize;
-
+    margin-left: 30px;
 }
 
+.recommended__title h2{
+    font-size: 28px;
+    
+}
+.recommended__title + p{
+    font-size: 22px;
+    text-transform: capitalize;
+}
 .recommended p {
     margin-top: 10px;
 }
@@ -154,8 +164,9 @@ body {
 }
 
 .course-card {
-    width: 250px;
-    height: 400px;
+    width: 280px;
+    height: 280px;
+    margin: 15px;
 }
 
 .course-card img {
@@ -169,6 +180,7 @@ body {
 
 .topic h2 {
     margin-bottom: 10px;
+    margin-left: 30px;
 }
 
 .topic ul {
@@ -178,14 +190,29 @@ body {
 .topic ul li {
     display: inline-block;
     border: 1px solid black;
-    width: 300px;
-    gap: 10px;
+    width: 25%;
+    margin: 20px;
+    padding: 10px;
     margin-bottom: 10px;
     text-align: center;
+    margin-left: 50px;
 }
 
 .popular {
     padding: 10px;
+    margin-left: 30px;
+}
+
+.popular__title {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.popular__subtitle {
+    margin-top: 15px;
+    font-size: 22px;
+    text-transform: capitalize;
 }
 
 .popular__container {
@@ -211,4 +238,39 @@ body {
 .footer__2 {
     padding: 30px;
     margin: 20px;
+}
+
+@media (max-width:800px) {
+    body {
+        font-size: 10px;
+    }
+
+    .course-card {
+        width: 200px;
+        height: 240px;
+    }
+
+}
+
+@media (max-width:600px) {
+    .categories {
+        display: none;
+    }
+    .course-card {
+        width: 160px;
+        height: 240px;
+    }
+
+
+    .topic ul li {
+        width: 150px;
+        padding: 10px;
+    }
+    .nav__sec2,.nav__sec3{
+        display: none;
+    }
+    .bars{
+        display: block;
+        font-size: 18px;
+    }
 }
